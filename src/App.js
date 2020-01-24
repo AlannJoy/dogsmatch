@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Image from "./components/Image";
+import { Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
             canin...
           </p>
         </div>
+        <Route exact path="/randompicker" component={Image} />
+        <Link to={`/randompicker`}>{Image}</Link>
       </div>
     </div>
   );

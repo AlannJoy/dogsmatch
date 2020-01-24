@@ -34,7 +34,6 @@ export default class Image extends Component {
   render() {
     return (
       <div>
-        <h1>HOla!</h1>
         <form>
           <img
             alt="We are having problems right now... Try leter!"
