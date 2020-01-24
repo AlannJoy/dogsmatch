@@ -1,4 +1,19 @@
-.background-Image {
-  width: 100vw;
-  height: auto;
+body {
+  background-image: url("https://images.pexels.com/photos/374825/pexels-photo-374825.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
+
+.my-welcome-text {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
+}
+
+.p-welcome {
+  font-size: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
