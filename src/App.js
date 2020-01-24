@@ -1,9 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Images from "./components/Images";
 
 function App() {
-  return <div className="App">Hello Dogs!!!</div>;
+  <Images />;
+  return <div className="App">Hello D</div>;
 }
 
 export default App;
+
+// ('Welcome to Dogs-Match!! Is your dog having a hard time finding a partner? Dont hesitate and join us... Click here to see some beautiful canin)
