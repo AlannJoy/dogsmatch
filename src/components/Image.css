@@ -1,0 +1,10 @@
+.random-image {
+  min-width: auto;
+  max-height: 300px;
+  display: block;
+  margin: auto;
+}
+.next-button {
+  display: block;
+  margin: auto;
+}

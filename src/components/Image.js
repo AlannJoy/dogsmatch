@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./Image.css";
 export default class Image extends Component {
   state = {
     imageUrl: ""
@@ -36,10 +36,13 @@ export default class Image extends Component {
       <div>
         <form>
           <img
+            className="random-image"
             alt="We are having problems right now... Try leter!"
             src={this.state.imageUrl}
           />
-          <button onClick={this.handleClick}>Tell us!</button>
+          <button className="next-button" onClick={this.handleClick}>
+            Tell us!
+          </button>
         </form>
       </div>
     );
