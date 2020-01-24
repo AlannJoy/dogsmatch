@@ -44,6 +44,9 @@ export default class Image extends Component {
           <button className="next-button" onClick={this.handleClick}>
             Next!
           </button>
+          <button className="match-button" onClick={this.handleClick}>
+            Match!
+          </button>
         </form>
       </div>
     );

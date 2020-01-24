@@ -1,6 +1,4 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import RandomPicker from "./RandomPicker";
 import { Link } from "react-router-dom";
 
 export default function HomePage() {
@@ -13,8 +11,9 @@ export default function HomePage() {
           Dont hesitate and join us... Click here to see some beautiful canin...
         </p>
       </div>
-      <Route exact path="/randompicker" component={RandomPicker} />
-      <Link to={`/randompicker/image`}>Searching for the perfect match?</Link>
+      <Link to="randompicker">
+        <button>Searching for the perfect match?</button>
+      </Link>
     </div>
   );
 }

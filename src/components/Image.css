@@ -1,3 +1,11 @@
+.random-picker {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .random-image {
   min-width: auto;
   max-height: 300px;
@@ -5,6 +13,22 @@
   margin: auto;
 }
 .next-button {
-  display: block;
+  border: none;
+  padding: 10px;
+  display: flex;
   margin: auto;
+  margin-top: 20px;
+  background-color: brown;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
+}
+.match-button {
+  border: none;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  background-color: green;
+  font-family: "Fredoka One", cursive;
+  color: aliceblue;
 }
